@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    background-color: white;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+a {
+    font-size: 24px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+
+.login__form {
+    margin-top: 50px;
+    text-align: center;
+}
+
+.login__form-userinput,
+.login__form-passwordinput {
+    width: 200px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.login__form-sumbitbutton {
+    color: black;
+    margin: 10px 0;
+    padding: 5px 20px;
+    background-color: transparent;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.login__form-sumbitbutton:hover {
+    background-color: green;
+}
+
+.user__list,
+.post__list,
+.comment__list {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    height: 750px;
+    overflow: auto;
+    list-style: none;
+}
+
+.user__block,
+.post__block,
+.comment__block {
+    width: 300px;
+    border-radius: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    padding: 20px;
+    color: white;
+    background-color: rgb(58, 58, 124);
+}
+
+#more {
+    margin: 10px 0;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+#btnLogOut {
+    margin: 10px 0;
+    padding: 5px 10px;
+    border: 1px solid #000;
+    border-radius: 10px;
+    background-color: transparent;
+    color: #000;
+    cursor: pointer;
+}
+
+#btnLogOut:hover {
+    background-color: red;
+}
+
+.post__header {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+
+.comments__button {
+    margin: 10px 0;
+    padding: 5px 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+.comment__title {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.comment__email {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.comment__body {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+}
